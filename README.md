@@ -58,7 +58,8 @@ git log --pretty=oneline
 git checkout -b version2 v2.0.0
 
 
-# 設定SSH #
+Git 設定 SSH
+------------
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
