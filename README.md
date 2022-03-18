@@ -1,10 +1,29 @@
 ![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Hello git")
 
 <img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
-![avatar](capture_stepup.png)
+
 
 Git 基本操作
 ============
+
+初始本地數據庫時，預設的分支名稱就是 master
+-------------------------------------------
+
+<img src="https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_12.57.25ni0zk.png">
+
+利用分支來創造各產品線的又能保持 master 分支發展
+------------------------------------------------
+
+>git branch dev
+
+<img src="https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.12.21o0tmv.png">
+
+切換分支各產品線的程式
+----------------------
+
+>git checkout dev
+
+<img src="https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.12.21o0tmv.png">
 
 所有修改檔案提交記錄
 --------------------
@@ -83,20 +102,30 @@ $ git remote add dummy-kao https://github.com/kaochenlong/dummy-git.git
 其實大部份的資料都會教你使用 upstream 做為原作遠端節點的名字，但為避免大家跟之前在「Push 上傳到 GitHub」章節介紹的 upstream 搞混，所以這裡我故意使用 dummy-kao 做為指向原作的遠端節點。這時候在這個專案應該就有 2 個遠端節點了，一個是原來的 origin，一個是原作的 dummy-kao：
 
 $ git remote -v
+
 dummy-kao	https://github.com/kaochenlong/dummy-git.git (fetch)
+
 dummy-kao	https://github.com/kaochenlong/dummy-git.git (push)
+
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
+
 origin	https://github.com/eddiekao/dummy-git.git (push)
 
 >第二步：抓取原作專案的內容
-接下來，就是使用 Fetch 指令來取得原作專案最新版的內容：
+>接下來，就是使用 Fetch 指令來取得原作專案最新版的內容：
 
 $ git fetch dummy-kao
+
 remote: Counting objects: 4, done.
+
 remote: Compressing objects: 100% (2/2), done.
+
 remote: Total 4 (delta 1), reused 3 (delta 1), pack-reused 1
+
 Unpacking objects: 100% (4/4), done.
+
 From https://github.com/kaochenlong/dummy-git
+
  * [new branch]      features/mailer      -> dummy-kao/features/mailer
  * [new branch]      features/mailer-plus -> dummy-kao/features/mailer-plus
  * [new branch]      features/mailer_pro  -> dummy-kao/features/mailer_pro
@@ -105,9 +134,13 @@ From https://github.com/kaochenlong/dummy-git
 
 
 $ git merge dummy-kao/master
+
 Updating ac341ae..689b015
+
 Fast-forward
+
  contact.html | 2 ++
+
  1 file changed, 2 insertions(+)
  
 
@@ -117,101 +150,21 @@ Fast-forward
 
 
 $ git push origin master
+
 Counting objects: 4, done.
+
 Delta compression using up to 4 threads.
+
 Compressing objects: 100% (4/4), done.
+
 Writing objects: 100% (4/4), 596 bytes | 596.00 KiB/s, done.
+
 Total 4 (delta 1), reused 0 (delta 0)
+
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+
 To https://github.com/eddiekao/dummy-git.git
+
    ac341ae..689b015  master -> master
 
 
-> Markdown 區塊引言
-> > Markdown 區塊引言
-
-Markdown Setext形式
-===================
-
-Markdown Setext形式
--------------------
-
-# 1st Atx形式 !! #
-
-## 2nd Atx形式 !! ##
-
-### 3rd Atx形式 !! ###
-
-#### 4th Atx形式 !! ####
-
-##### 5th Atx形式 !! #####
-
-###### 6th Atx形式 !! ######
-
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
-表格
-====
-  |姓名|性別|年齡|國籍|
-  |---|----|----|---|
-  |妹子|男|94|日本|
-  |漢子|女|87|美國|
-
-強調
-====
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-縮行
-====
-
->文字內容
->>縮行
->>>縮行
->>>>(以此類推)
-
-
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-
-分隔線
-======
-
---------------------------------
-
-Markdown支援有序清單和無序清單
-==============================
-無序清單使用星號、加號或是減號作為清單標記：
-
-*   Red
-*   Green
-*   Blue
-
-
-**待辦事項**
-============
-
-- [x] Red 
-- [x] Green
-- [x] Blue
-
-
-  |Project Name|Bring up|GPIO|HSIO|Super IO|GOP(VBT)|
-  |----|----|----|----|----|----|
-  |SOM 2569|Done| | | | |
-  |SOM 3569|Done| | | | |
-  |SOM 6869|Done| | | | |
-  |SOM 7569|Done| | | | |
