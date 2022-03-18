@@ -11,22 +11,21 @@ Git 基本操作
 
 <https://w3c.hexschool.com/git/a8ee6eee>
 
-![25ni0zk](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_12.57.25ni0zk.png)
-
 利用分支來創造各產品線的又能保持 master 分支發展
 ------------------------------------------------
 
 >git branch dev
-
-![58npyhw](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.03.58npyhw.png)
 
 切換分支各產品線的程式
 ----------------------
 
 >git checkout dev
 
-![42oh0ud](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.22.42oh0ud.png)
 
+切換分支各產品線的SBL
+----------------------
+
+>git push --set-upstream origin 產品名稱
 
 每個分支每一產品SBL Code
 ------------------------
