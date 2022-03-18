@@ -1,5 +1,8 @@
 ![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Hello git")
 
+<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
+![avatar](capture_stepup.png)
+
 Git �򥻾ާ@
 ============
 
