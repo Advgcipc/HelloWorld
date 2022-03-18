@@ -1,6 +1,5 @@
 ![Alt text](https://git-scm.com/images/logo@2x.png "Git")
 
-![capture_stepup](https://github.com/Advgcipc/HelloWorld/blob/master/capture_stepup.png)
 
 Git 基本操作
 ============
@@ -8,20 +7,31 @@ Git 基本操作
 初始本地數據庫時，預設的分支名稱就是 master
 -------------------------------------------
 
+![capture_stepup](https://github.com/Advgcipc/HelloWorld/blob/master/capture_stepup.png)
+
 <https://w3c.hexschool.com/git/a8ee6eee>
 
+![25ni0zk](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_12.57.25ni0zk.png)
 
 利用分支來創造各產品線的又能保持 master 分支發展
 ------------------------------------------------
 
 >git branch dev
 
+![58npyhw](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.03.58npyhw.png)
 
 切換分支各產品線的程式
 ----------------------
 
 >git checkout dev
 
+![42oh0ud](https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.22.42oh0ud.png)
+
+
+每個分支每一產品SBL Code
+------------------------
+
+![capture_stepup1_2_1](https://backlog.com/git-tutorial/tw/img/post/stepup/capture_stepup1_2_1.png)
 
 所有修改檔案提交記錄
 --------------------
