@@ -1,7 +1,4 @@
-![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Hello git")
-
-<img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
-
+![Alt text](https://git-scm.com/images/logo@2x.png "Git")
 
 Git 基本操作
 ============
@@ -9,21 +6,20 @@ Git 基本操作
 初始本地數據庫時，預設的分支名稱就是 master
 -------------------------------------------
 
-![GITHUB]( https://github.com/Advgcipc/HelloWorld/capture_stepup.png "圖片名稱")
+<https://w3c.hexschool.com/git/a8ee6eee>
+
 
 利用分支來創造各產品線的又能保持 master 分支發展
 ------------------------------------------------
 
 >git branch dev
 
-<img src="https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.12.21o0tmv.png">
 
 切換分支各產品線的程式
 ----------------------
 
 >git checkout dev
 
-<img src="https://w3c.hexschool.com/img/%E8%9E%A2%E5%B9%95%E6%88%AA%E5%9C%96_2019-11-19_13.12.21o0tmv.png">
 
 所有修改檔案提交記錄
 --------------------
