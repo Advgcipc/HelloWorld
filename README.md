@@ -64,7 +64,8 @@ Git 設定 SSH
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
 >第一步：設定原作的遠端節點
-舉例來說，這是 Fork 過來的專案：
+>
+>舉例來說，這是 Fork 過來的專案：
 
 $ git remote -v
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
