@@ -1,7 +1,10 @@
 
 ![Alt text](https://avatars.githubusercontent.com/u/49860687?v=4 "Advantech-SBL")
+
+
 SBL 開發環境建置
 ================
+
 
 SBL SOURCE CODE 取得
 ====================
@@ -12,8 +15,9 @@ SBL Source code 建置
 
 SBL Binary 所在位置
 ===================
-$(SOURCE_DIR)\Build\XXX.bin
 
+$(SOURCE_DIR)\Build\XXX.bin
+---------------------------
 
 ![Alt text](https://git-scm.com/images/logo@2x.png "Git")
 
