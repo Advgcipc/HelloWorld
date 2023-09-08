@@ -24,7 +24,7 @@ Git (ex. GitBash)
 >>複製 \\biosserver.advantech.corp\Utility\SBL\ASL\ 到 C:\ASL
 
 >OpenSSL
->>\\biosserver.advantech.corp\Utility\SBL\Openssl\ 到 C:\openssl
+>>複製 \\biosserver.advantech.corp\Utility\SBL\Openssl\ 到 C:\openssl
 
 
 SBL SOURCE CODE 取得
