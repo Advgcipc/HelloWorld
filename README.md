@@ -5,6 +5,27 @@
 SBL 開發環境建置
 ================
 
+>VS Code 建議使用
+>>安裝\\biosserver.advantech.corp\Utility\SBL\VSCodeUserSetup-x64-1.81.1.exe
+
+>Supported environment: Microsoft Visual Studio 2017 Community
+>>安裝 \\biosserver.advantech.corp\Utility\SBL\vs_community_2017__76894b434db54df38dd05fd23360e222.exe
+
+Git (ex. GitBash)
+>>安裝 \\biosserver.advantech.corp\Utility\SBL\Git-2.42.0.2-64-bit.exe
+
+>Python 3.6
+>>複製\\biosserver.advantech.corp\Utility\SBL\ASL\ C:\Python36
+
+>NASM 2.12.02
+>>複製\\biosserver.advantech.corp\Utility\SBL\Nasm\ 到 C:\Nasm
+
+>IASL 20190509
+>>複製 \\biosserver.advantech.corp\Utility\SBL\ASL\ 到 C:\ASL
+
+>OpenSSL
+>>\\biosserver.advantech.corp\Utility\SBL\Openssl\ 到 C:\openssl
+
 
 SBL SOURCE CODE 取得
 ====================
