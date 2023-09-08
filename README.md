@@ -26,9 +26,12 @@ Git (ex. GitBash)
 >OpenSSL
 >>複製 \\biosserver.advantech.corp\Utility\SBL\Openssl\ 到 C:\openssl
 
-
-SBL SOURCE CODE 取得
+SBL Source code 取得
 ====================
+
+使用 VSCODE 複製Github檔案庫到本地檔案庫
+![Alt text](https://ithelp.ithome.com.tw/upload/images/20210918/201297292uygatRc8n.png
+ "VSC1")
 
 SBL Source code 建置
 ====================
@@ -37,8 +40,8 @@ SBL Source code 建置
 SBL Binary 所在位置
 ===================
 
-$(SOURCE_DIR)\Build\XXX.bin
----------------------------
+>$(SOURCE_DIR)\Build\XXX.bin
+
 
 ![Alt text](https://git-scm.com/images/logo@2x.png "Git")
 
