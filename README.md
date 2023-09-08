@@ -29,13 +29,20 @@ Git (ex. GitBash)
 SBL Source code 取得
 ====================
 
-使用 VSCODE 複製Github檔案庫到本地檔案庫
+>使用 VSCODE 複製Github檔案庫到本地檔案庫
+
 ![Alt text](https://ithelp.ithome.com.tw/upload/images/20210918/201297292uygatRc8n.png
  "VSC1")
+
+>切換檔案庫分支到所需要的專案
 
 SBL Source code 建置
 ====================
 
+>>開啟"終端機"使用 CMD 為預設
+>>keyin "slim" 來設定所以編譯的環境變數
+>>keyin "slim -a" 來編譯的SBL
+>>keyin "slim -h" 來查詢其他功能
 
 SBL Binary 所在位置
 ===================
