@@ -1,5 +1,5 @@
 
-![Alt text](https://avatars.githubusercontent.com/u/49860687?v=4 "Advantech-SBL")
+![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Advantech-SBL")
 
 SBL 開發環境建置
 ================
