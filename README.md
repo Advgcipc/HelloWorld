@@ -8,12 +8,12 @@ SBL 開發環境建置
 
 >>安裝\\biosserver.advantech.corp\Utility\SBL\VSCodeUserSetup-x64-1.81.1.exe
 
->>>勾選使用C++的桌面開發
 
-
->Supported environment: Microsoft Visual Studio 2017 Community
+>Microsoft Visual Studio 2017 Community
 
 >>安裝 \\biosserver.advantech.corp\Utility\SBL\vs_community_2017__76894b434db54df38dd05fd23360e222.exe
+
+>>>勾選使用C++的桌面開發
 
 >Git (ex. GitBash)
 
