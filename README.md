@@ -1,86 +1,86 @@
 ![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Hello git")
 
 <img src="http://static.runoob.com/images/runoob-logo.png" width="50%">
-![avatar](capture_stepup.png)
+![image](capture_stepup.png)
 
-Git °ò¥»¾Þ§@
+Git ï¿½ò¥»¾Þ§@
 ============
 
-©Ò¦³­×§ïÀÉ®×´£¥æ°O¿ý
+ï¿½Ò¦ï¿½ï¿½×§ï¿½ï¿½É®×´ï¿½ï¿½ï¿½Oï¿½ï¿½
 --------------------
 
 git add . 
 
-´£¥æ¨ì¥»¦aºÝªºÀÉ®×®w
+ï¿½ï¿½ï¿½ï¿½ì¥»ï¿½aï¿½Ýªï¿½ï¿½É®×®w
 --------------------
 
 git commit -m "Update messges"
 
-¥»¦aºÝªºÀÉ®×®w¦P¨B¦^»·ºÝÀÉ®×®w
+ï¿½ï¿½ï¿½aï¿½Ýªï¿½ï¿½É®×®wï¿½Pï¿½Bï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½É®×®w
 ------------------------------
 
 git push 
 
-¦C¥X¤£¦PÀÉ®×»PÀÉ®×®w
+ï¿½Cï¿½Xï¿½ï¿½ï¿½Pï¿½É®×»Pï¿½É®×®w
 --------------------
 
 git add . 
 
-»´¶q¯Å¼ÐÅÒ
+ï¿½ï¿½ï¿½qï¿½Å¼ï¿½ï¿½ï¿½
 ----------
 
 git tag -a 2532X001 9fceb02
-           ¼ÐÅÒ     ª©¥»GUID«e¤K½X
+           ï¿½ï¿½ï¿½ï¿½     ï¿½ï¿½ï¿½ï¿½GUIDï¿½eï¿½Kï¿½X
            
-µù¸Ñªº¼ÐÅÒ
+ï¿½ï¿½ï¿½Ñªï¿½ï¿½ï¿½ï¿½ï¿½
 ----------
 
 git tag -a 2532X001 9fceb02 -m "Update messges"
-                            ¥[¤Jµù¸Ñ°T®§
+                            ï¿½[ï¿½Jï¿½ï¿½ï¿½Ñ°Tï¿½ï¿½
                             
-¬d¸ß©Ò¦³¼ÐÅÒ
+ï¿½dï¿½ß©Ò¦ï¿½ï¿½ï¿½ï¿½ï¿½
 ------------
 
 git tag
 
 
-¬d¸ß¼ÐÅÒ­×§ï
+ï¿½dï¿½ß¼ï¿½ï¿½Ò­×§ï¿½
 ------------
 
 git show XXXX
 
-¬d¸ß´£¥æª©¥»GUID
+ï¿½dï¿½ß´ï¿½ï¿½æª©ï¿½ï¿½GUID
 ----------------
 
 git log --pretty=oneline
 
 
-ÀË¥X¼ÐÅÒ
+ï¿½Ë¥Xï¿½ï¿½ï¿½ï¿½
 --------
 
 git checkout -b version2 v2.0.0
 
 
-Git ³]©w SSH
+Git ï¿½]ï¿½w SSH
 ------------
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
->²Ä¤@¨B¡G³]©w­ì§@ªº»·ºÝ¸`ÂI
+>ï¿½Ä¤@ï¿½Bï¿½Gï¿½]ï¿½wï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸`ï¿½I
 >
->Á|¨Ò¨Ó»¡¡A³o¬O Fork ¹L¨Óªº±M®×¡G
+>ï¿½|ï¿½Ò¨Ó»ï¿½ï¿½Aï¿½oï¿½O Fork ï¿½Lï¿½Óªï¿½ï¿½Mï¿½×¡G
 
 $ git remote -v
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
 origin	https://github.com/eddiekao/dummy-git.git (push)
 
 
-git remote «ü¥O¥[¤W -v °Ñ¼Æ«á¥i¥H¬Ý¨ì§ó§¹¾ãªº¸ê°T¡C±q³o¸Ì¥i¥H¬Ý±o¥X¨Ó¥Ø«e³o­Ó±M®×¥u¦³³]©w¤@­Ó»·ºÝ¸`ÂI origin¡C±µ¤U¨Ó§Ú­nÀ°¥¦¥[¤W¥t¤@­Ó»·ºÝ¸`ÂI¡A³o­Ó»·ºÝ¸`ÂI«üªº¦ì¸m´N¬O­ì§@ªº±M®×¡G
+git remote ï¿½ï¿½ï¿½Oï¿½[ï¿½W -v ï¿½Ñ¼Æ«ï¿½iï¿½Hï¿½Ý¨ï¿½ó§¹¾ãªºï¿½ï¿½Tï¿½Cï¿½qï¿½oï¿½Ì¥iï¿½Hï¿½Ý±oï¿½Xï¿½Ó¥Ø«eï¿½oï¿½Ó±Mï¿½×¥uï¿½ï¿½ï¿½]ï¿½wï¿½@ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½I originï¿½Cï¿½ï¿½ï¿½Uï¿½Ó§Ú­nï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Wï¿½tï¿½@ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½Aï¿½oï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Nï¿½Oï¿½ï¿½@ï¿½ï¿½ï¿½Mï¿½×¡G
 
 $ git remote add dummy-kao https://github.com/kaochenlong/dummy-git.git
 
 
-¨ä¹ê¤j³¡¥÷ªº¸ê®Æ³£·|±Ð§A¨Ï¥Î upstream °µ¬°­ì§@»·ºÝ¸`ÂIªº¦W¦r¡A¦ý¬°Á×§K¤j®a¸ò¤§«e¦b¡uPush ¤W¶Ç¨ì GitHub¡v³¹¸`¤¶²Ðªº upstream ·d²V¡A©Ò¥H³o¸Ì§Ú¬G·N¨Ï¥Î dummy-kao °µ¬°«ü¦V­ì§@ªº»·ºÝ¸`ÂI¡C³o®É­Ô¦b³o­Ó±M®×À³¸Ó´N¦³ 2 ­Ó»·ºÝ¸`ÂI¤F¡A¤@­Ó¬O­ì¨Óªº origin¡A¤@­Ó¬O­ì§@ªº dummy-kao¡G
+ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½|ï¿½Ð§Aï¿½Ï¥ï¿½ upstream ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½Ý¸`ï¿½Iï¿½ï¿½ï¿½Wï¿½rï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½×§Kï¿½jï¿½aï¿½ò¤§«eï¿½bï¿½uPush ï¿½Wï¿½Ç¨ï¿½ GitHubï¿½vï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ðªï¿½ upstream ï¿½dï¿½Vï¿½Aï¿½Ò¥Hï¿½oï¿½Ì§Ú¬Gï¿½Nï¿½Ï¥ï¿½ dummy-kao ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸`ï¿½Iï¿½Cï¿½oï¿½É­Ô¦bï¿½oï¿½Ó±Mï¿½ï¿½ï¿½ï¿½ï¿½Ó´Nï¿½ï¿½ 2 ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½Fï¿½Aï¿½@ï¿½Ó¬Oï¿½ï¿½Óªï¿½ originï¿½Aï¿½@ï¿½Ó¬Oï¿½ï¿½@ï¿½ï¿½ dummy-kaoï¿½G
 
 $ git remote -v
 dummy-kao	https://github.com/kaochenlong/dummy-git.git (fetch)
@@ -88,8 +88,8 @@ dummy-kao	https://github.com/kaochenlong/dummy-git.git (push)
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
 origin	https://github.com/eddiekao/dummy-git.git (push)
 
->²Ä¤G¨B¡G§ì¨ú­ì§@±M®×ªº¤º®e
-±µ¤U¨Ó¡A´N¬O¨Ï¥Î Fetch «ü¥O¨Ó¨ú±o­ì§@±M®×³Ì·sª©ªº¤º®e¡G
+>ï¿½Ä¤Gï¿½Bï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Mï¿½×ªï¿½ï¿½ï¿½ï¿½e
+ï¿½ï¿½ï¿½Uï¿½Ó¡Aï¿½Nï¿½Oï¿½Ï¥ï¿½ Fetch ï¿½ï¿½ï¿½Oï¿½Ó¨ï¿½ï¿½oï¿½ï¿½@ï¿½Mï¿½×³Ì·sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½G
 
 $ git fetch dummy-kao
 remote: Counting objects: 4, done.
@@ -112,8 +112,8 @@ Fast-forward
  
 
  
-> ²Ä¤T¨B¡G±À¦^¦Û¤vªº±M®×
-³o­Ó¨BÆJ­n¤£­n°µ´N¬Ý§A¦Û¤v¨M©w¤F¡A²¦³º¦b§A¹q¸£¤W¤w¸g¬O³Ì·sª©¥»¤F¡A¦pªG§A§Æ±æ§A¦b GitHub ¤W¨º­Ó Fork ªº±M®×¤]¸ò¨ì³Ì·sª©¡A¥u­n±À¤W¥h´N¦æ¤F¡G
+> ï¿½Ä¤Tï¿½Bï¿½Gï¿½ï¿½ï¿½^ï¿½Û¤vï¿½ï¿½ï¿½Mï¿½ï¿½
+ï¿½oï¿½Ó¨Bï¿½Jï¿½nï¿½ï¿½ï¿½nï¿½ï¿½ï¿½Nï¿½Ý§Aï¿½Û¤vï¿½Mï¿½wï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½bï¿½Aï¿½qï¿½ï¿½ï¿½Wï¿½wï¿½gï¿½Oï¿½Ì·sï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Aï¿½pï¿½Gï¿½Aï¿½Æ±ï¿½Aï¿½b GitHub ï¿½Wï¿½ï¿½ï¿½ï¿½ Fork ï¿½ï¿½ï¿½Mï¿½×¤]ï¿½ï¿½ï¿½Ì·sï¿½ï¿½ï¿½Aï¿½uï¿½nï¿½ï¿½ï¿½Wï¿½hï¿½Nï¿½ï¿½Fï¿½G
 
 
 $ git push origin master
@@ -127,26 +127,26 @@ To https://github.com/eddiekao/dummy-git.git
    ac341ae..689b015  master -> master
 
 
-> Markdown °Ï¶ô¤Þ¨¥
-> > Markdown °Ï¶ô¤Þ¨¥
+> Markdown ï¿½Ï¶ï¿½ï¿½Þ¨ï¿½
+> > Markdown ï¿½Ï¶ï¿½ï¿½Þ¨ï¿½
 
-Markdown Setext§Î¦¡
+Markdown Setextï¿½Î¦ï¿½
 ===================
 
-Markdown Setext§Î¦¡
+Markdown Setextï¿½Î¦ï¿½
 -------------------
 
-# 1st Atx§Î¦¡ !! #
+# 1st Atxï¿½Î¦ï¿½ !! #
 
-## 2nd Atx§Î¦¡ !! ##
+## 2nd Atxï¿½Î¦ï¿½ !! ##
 
-### 3rd Atx§Î¦¡ !! ###
+### 3rd Atxï¿½Î¦ï¿½ !! ###
 
-#### 4th Atx§Î¦¡ !! ####
+#### 4th Atxï¿½Î¦ï¿½ !! ####
 
-##### 5th Atx§Î¦¡ !! #####
+##### 5th Atxï¿½Î¦ï¿½ !! #####
 
-###### 6th Atx§Î¦¡ !! ######
+###### 6th Atxï¿½Î¦ï¿½ !! ######
 
 
 <table>
@@ -155,14 +155,14 @@ Markdown Setext§Î¦¡
     </tr>
 </table>
 
-ªí®æ
+ï¿½ï¿½ï¿½ï¿½
 ====
-  |©m¦W|©Ê§O|¦~ÄÖ|°êÄy|
+  |ï¿½mï¿½W|ï¿½Ê§O|ï¿½~ï¿½ï¿½|ï¿½ï¿½ï¿½y|
   |---|----|----|---|
-  |©f¤l|¨k|94|¤é¥»|
-  |º~¤l|¤k|87|¬ü°ê|
+  |ï¿½fï¿½l|ï¿½k|94|ï¿½é¥»|
+  |ï¿½~ï¿½l|ï¿½k|87|ï¿½ï¿½ï¿½ï¿½|
 
-±j½Õ
+ï¿½jï¿½ï¿½
 ====
 
 *single asterisks*
@@ -173,13 +173,13 @@ _single underscores_
 
 __double underscores__
 
-ÁY¦æ
+ï¿½Yï¿½ï¿½
 ====
 
->¤å¦r¤º®e
->>ÁY¦æ
->>>ÁY¦æ
->>>>(¥H¦¹Ãþ±À)
+>ï¿½ï¿½rï¿½ï¿½ï¿½e
+>>ï¿½Yï¿½ï¿½
+>>>ï¿½Yï¿½ï¿½
+>>>>(ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
 
 
 > ## This is a header.
@@ -187,21 +187,21 @@ __double underscores__
 > 1.   This is the first list item.
 > 2.   This is the second list item.
 
-¤À¹j½u
+ï¿½ï¿½ï¿½jï¿½u
 ======
 
 --------------------------------
 
-Markdown¤ä´©¦³§Ç²M³æ©MµL§Ç²M³æ
+Markdownï¿½ä´©ï¿½ï¿½ï¿½Ç²Mï¿½ï¿½Mï¿½Lï¿½Ç²Mï¿½ï¿½
 ==============================
-µL§Ç²M³æ¨Ï¥Î¬P¸¹¡B¥[¸¹©Î¬O´î¸¹§@¬°²M³æ¼Ð°O¡G
+ï¿½Lï¿½Ç²Mï¿½ï¿½Ï¥Î¬Pï¿½ï¿½ï¿½Bï¿½[ï¿½ï¿½ï¿½Î¬Oï¿½î¸¹ï¿½@ï¿½ï¿½ï¿½Mï¿½ï¿½Ð°Oï¿½G
 
 *   Red
 *   Green
 *   Blue
 
 
-**«Ý¿ì¨Æ¶µ**
+**ï¿½Ý¿ï¿½Æ¶ï¿½**
 ============
 
 - [x] Red 
