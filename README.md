@@ -1,101 +1,215 @@
-![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Hello git")
 
-![image](https://github.com/Advgcipc/HelloWorld/blob/master/capture_stepup.png)
+![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Advantech-SBL")
 
-Git ï¿½ò¥»¾Þ§@
+SBL ¶}µoÀô¹Ò«Ø¸m
+================
+
+>VS Code «ØÄ³¨Ï¥Î
+
+>>¦w¸Ë\\biosserver.advantech.corp\Utility\SBL\VSCodeUserSetup-x64-1.81.1.exe
+
+
+>Microsoft Visual Studio 2017 Community
+
+>>¦w¸Ë \\biosserver.advantech.corp\Utility\SBL\vs_community_2017__76894b434db54df38dd05fd23360e222.exe
+
+>>>¤Ä¿ï¨Ï¥ÎC++ªº®à­±¶}µo
+
+>Git (ex. GitBash)
+
+>>¦w¸Ë \\biosserver.advantech.corp\Utility\SBL\Git-2.42.0.2-64-bit.exe
+
+>Python 3.6
+
+>>½Æ»s\\biosserver.advantech.corp\Utility\SBL\ASL\ C:\Python36
+
+>NASM 2.12.02
+
+>>½Æ»s\\biosserver.advantech.corp\Utility\SBL\Nasm\ ¨ì C:\Nasm
+
+>IASL 20190509
+
+>>½Æ»s \\biosserver.advantech.corp\Utility\SBL\ASL\ ¨ì C:\ASL
+
+>OpenSSL
+
+>>½Æ»s \\biosserver.advantech.corp\Utility\SBL\Openssl\ ¨ì C:\openssl
+
+SBL Source code ¨ú±o
+====================
+
+>https://github.com/Advgcipc/slimbootloader.git
+
+>¨Ï¥Î VSCODE ½Æ»sGithubÀÉ®×®w¨ì¥»¦aÀÉ®×®w
+
+![Alt text](https://ithelp.ithome.com.tw/upload/images/20210918/201297292uygatRc8n.png
+ "VSC1")
+
+>¤Á´«ÀÉ®×®w¤À¤ä¨ì©Ò»Ý­nªº±M®×
+
+SBL Source code «Ø¸m
+====================
+
+>>¶}±Ò"²×ºÝ¾÷"¨Ï¥Î CMD ¬°¹w³]
+
+>>keyin "slim" ¨Ó³]©w©Ò¥H½sÄ¶ªºÀô¹ÒÅÜ¼Æ
+
+>>keyin "slim -a" ¨Ó½sÄ¶ªºSBL
+
+>>keyin "slim -h" ¨Ó¬d¸ß¨ä¥L¥\¯à
+
+SBL Binary ©Ò¦b¦ì¸m
+===================
+
+>$(SOURCE_DIR)\Build\XXX.bin
+
+SBL Source ºÞ±±
+===================
+
+>·s±M®×¶}µo¨Ï¥Î·sªº¤À¤ä¨ÓºûÅ@
+
+>·í­nCheckin ¨ìGhub ®É­n¨Ï¥ÎSSH ¨Ó°µCheckout ¬ÛÃöª÷Æ_ ½Ð¬¢ºÞ²zªÌ
+
+>git@github.com:Advgcipc/slimbootloader.git
+
+
+
+
+![Alt text](https://git-scm.com/images/logo@2x.png "Git")
+
+
+Git °ò¥»¾Þ§@
 ============
 
-ï¿½Ò¦ï¿½ï¿½×§ï¿½ï¿½É®×´ï¿½ï¿½ï¿½Oï¿½ï¿½
+ªì©l¥»¦a¼Æ¾Ú®w®É¡A¹w³]ªº¤À¤ä¦WºÙ´N¬O master
+-------------------------------------------
+
+![Image](https://github.com/Advgcipc/HelloWorld/blob/master/capture_stepup.png)
+
+<https://w3c.hexschool.com/git/a8ee6eee>
+
+§Q¥Î¤À¤ä¨Ó³Ð³y¦U²£«~½uªº¤S¯à«O«ù master ¤À¤äµo®i
+------------------------------------------------
+
+>git branch dev
+
+¤Á´«¤À¤ä¦U²£«~½uªºµ{¦¡
+----------------------
+
+>git checkout dev
+
+
+¤Á´«¤À¤ä¦U²£«~½uªºSBL
+----------------------
+
+>git push --set-upstream origin ²£«~¦WºÙ
+
+¨C­Ó¤À¤ä¨C¤@²£«~SBL Code
+------------------------
+
+![capture_stepup1_2_1](https://backlog.com/git-tutorial/tw/img/post/stepup/capture_stepup1_2_1.png)
+
+©Ò¦³­×§ïÀÉ®×´£¥æ°O¿ý
 --------------------
 
 git add . 
 
-ï¿½ï¿½ï¿½ï¿½ì¥»ï¿½aï¿½Ýªï¿½ï¿½É®×®w
+´£¥æ¨ì¥»¦aºÝªºÀÉ®×®w
 --------------------
 
 git commit -m "Update messges"
 
-ï¿½ï¿½ï¿½aï¿½Ýªï¿½ï¿½É®×®wï¿½Pï¿½Bï¿½^ï¿½ï¿½ï¿½ï¿½ï¿½É®×®w
+¥»¦aºÝªºÀÉ®×®w¦P¨B¦^»·ºÝÀÉ®×®w
 ------------------------------
 
 git push 
 
-ï¿½Cï¿½Xï¿½ï¿½ï¿½Pï¿½É®×»Pï¿½É®×®w
+¦C¥X¤£¦PÀÉ®×»PÀÉ®×®w
 --------------------
 
 git add . 
 
-ï¿½ï¿½ï¿½qï¿½Å¼ï¿½ï¿½ï¿½
+»´¶q¯Å¼ÐÅÒ
 ----------
 
 git tag -a 2532X001 9fceb02
-           ï¿½ï¿½ï¿½ï¿½     ï¿½ï¿½ï¿½ï¿½GUIDï¿½eï¿½Kï¿½X
+           ¼ÐÅÒ     ª©¥»GUID«e¤K½X
            
-ï¿½ï¿½ï¿½Ñªï¿½ï¿½ï¿½ï¿½ï¿½
+µù¸Ñªº¼ÐÅÒ
 ----------
 
 git tag -a 2532X001 9fceb02 -m "Update messges"
-                            ï¿½[ï¿½Jï¿½ï¿½ï¿½Ñ°Tï¿½ï¿½
+                            ¥[¤Jµù¸Ñ°T®§
                             
-ï¿½dï¿½ß©Ò¦ï¿½ï¿½ï¿½ï¿½ï¿½
+¬d¸ß©Ò¦³¼ÐÅÒ
 ------------
 
 git tag
 
 
-ï¿½dï¿½ß¼ï¿½ï¿½Ò­×§ï¿½
+¬d¸ß¼ÐÅÒ­×§ï
 ------------
 
 git show XXXX
 
-ï¿½dï¿½ß´ï¿½ï¿½æª©ï¿½ï¿½GUID
+¬d¸ß´£¥æª©¥»GUID
 ----------------
 
 git log --pretty=oneline
 
 
-ï¿½Ë¥Xï¿½ï¿½ï¿½ï¿½
+ÀË¥X¼ÐÅÒ
 --------
 
 git checkout -b version2 v2.0.0
 
 
-Git ï¿½]ï¿½w SSH
+Git ³]©w SSH
 ------------
 
 https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
->ï¿½Ä¤@ï¿½Bï¿½Gï¿½]ï¿½wï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸`ï¿½I
+>²Ä¤@¨B¡G³]©w­ì§@ªº»·ºÝ¸`ÂI
 >
->ï¿½|ï¿½Ò¨Ó»ï¿½ï¿½Aï¿½oï¿½O Fork ï¿½Lï¿½Óªï¿½ï¿½Mï¿½×¡G
+>Á|¨Ò¨Ó»¡¡A³o¬O Fork ¹L¨Óªº±M®×¡G
 
 $ git remote -v
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
 origin	https://github.com/eddiekao/dummy-git.git (push)
 
 
-git remote ï¿½ï¿½ï¿½Oï¿½[ï¿½W -v ï¿½Ñ¼Æ«ï¿½iï¿½Hï¿½Ý¨ï¿½ó§¹¾ãªºï¿½ï¿½Tï¿½Cï¿½qï¿½oï¿½Ì¥iï¿½Hï¿½Ý±oï¿½Xï¿½Ó¥Ø«eï¿½oï¿½Ó±Mï¿½×¥uï¿½ï¿½ï¿½]ï¿½wï¿½@ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½I originï¿½Cï¿½ï¿½ï¿½Uï¿½Ó§Ú­nï¿½ï¿½ï¿½ï¿½ï¿½[ï¿½Wï¿½tï¿½@ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½Aï¿½oï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½ï¿½ï¿½ï¿½ï¿½ï¿½mï¿½Nï¿½Oï¿½ï¿½@ï¿½ï¿½ï¿½Mï¿½×¡G
+git remote «ü¥O¥[¤W -v °Ñ¼Æ«á¥i¥H¬Ý¨ì§ó§¹¾ãªº¸ê°T¡C±q³o¸Ì¥i¥H¬Ý±o¥X¨Ó¥Ø«e³o­Ó±M®×¥u¦³³]©w¤@­Ó»·ºÝ¸`ÂI origin¡C±µ¤U¨Ó§Ú­nÀ°¥¦¥[¤W¥t¤@­Ó»·ºÝ¸`ÂI¡A³o­Ó»·ºÝ¸`ÂI«üªº¦ì¸m´N¬O­ì§@ªº±M®×¡G
 
 $ git remote add dummy-kao https://github.com/kaochenlong/dummy-git.git
 
 
-ï¿½ï¿½ï¿½jï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ³ï¿½ï¿½|ï¿½Ð§Aï¿½Ï¥ï¿½ upstream ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½ï¿½ï¿½Ý¸`ï¿½Iï¿½ï¿½ï¿½Wï¿½rï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½×§Kï¿½jï¿½aï¿½ò¤§«eï¿½bï¿½uPush ï¿½Wï¿½Ç¨ï¿½ GitHubï¿½vï¿½ï¿½ï¿½`ï¿½ï¿½ï¿½Ðªï¿½ upstream ï¿½dï¿½Vï¿½Aï¿½Ò¥Hï¿½oï¿½Ì§Ú¬Gï¿½Nï¿½Ï¥ï¿½ dummy-kao ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Vï¿½ï¿½@ï¿½ï¿½ï¿½ï¿½ï¿½Ý¸`ï¿½Iï¿½Cï¿½oï¿½É­Ô¦bï¿½oï¿½Ó±Mï¿½ï¿½ï¿½ï¿½ï¿½Ó´Nï¿½ï¿½ 2 ï¿½Ó»ï¿½ï¿½Ý¸`ï¿½Iï¿½Fï¿½Aï¿½@ï¿½Ó¬Oï¿½ï¿½Óªï¿½ originï¿½Aï¿½@ï¿½Ó¬Oï¿½ï¿½@ï¿½ï¿½ dummy-kaoï¿½G
+¨ä¹ê¤j³¡¥÷ªº¸ê®Æ³£·|±Ð§A¨Ï¥Î upstream °µ¬°­ì§@»·ºÝ¸`ÂIªº¦W¦r¡A¦ý¬°Á×§K¤j®a¸ò¤§«e¦b¡uPush ¤W¶Ç¨ì GitHub¡v³¹¸`¤¶²Ðªº upstream ·d²V¡A©Ò¥H³o¸Ì§Ú¬G·N¨Ï¥Î dummy-kao °µ¬°«ü¦V­ì§@ªº»·ºÝ¸`ÂI¡C³o®É­Ô¦b³o­Ó±M®×À³¸Ó´N¦³ 2 ­Ó»·ºÝ¸`ÂI¤F¡A¤@­Ó¬O­ì¨Óªº origin¡A¤@­Ó¬O­ì§@ªº dummy-kao¡G
 
 $ git remote -v
+
 dummy-kao	https://github.com/kaochenlong/dummy-git.git (fetch)
+
 dummy-kao	https://github.com/kaochenlong/dummy-git.git (push)
+
 origin	https://github.com/eddiekao/dummy-git.git (fetch)
+
 origin	https://github.com/eddiekao/dummy-git.git (push)
 
->ï¿½Ä¤Gï¿½Bï¿½Gï¿½ï¿½ï¿½ï¿½ï¿½@ï¿½Mï¿½×ªï¿½ï¿½ï¿½ï¿½e
-ï¿½ï¿½ï¿½Uï¿½Ó¡Aï¿½Nï¿½Oï¿½Ï¥ï¿½ Fetch ï¿½ï¿½ï¿½Oï¿½Ó¨ï¿½ï¿½oï¿½ï¿½@ï¿½Mï¿½×³Ì·sï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½eï¿½G
+>²Ä¤G¨B¡G§ì¨ú­ì§@±M®×ªº¤º®e
+>±µ¤U¨Ó¡A´N¬O¨Ï¥Î Fetch «ü¥O¨Ó¨ú±o­ì§@±M®×³Ì·sª©ªº¤º®e¡G
 
 $ git fetch dummy-kao
+
 remote: Counting objects: 4, done.
+
 remote: Compressing objects: 100% (2/2), done.
+
 remote: Total 4 (delta 1), reused 3 (delta 1), pack-reused 1
+
 Unpacking objects: 100% (4/4), done.
+
 From https://github.com/kaochenlong/dummy-git
+
  * [new branch]      features/mailer      -> dummy-kao/features/mailer
  * [new branch]      features/mailer-plus -> dummy-kao/features/mailer-plus
  * [new branch]      features/mailer_pro  -> dummy-kao/features/mailer_pro
@@ -104,117 +218,37 @@ From https://github.com/kaochenlong/dummy-git
 
 
 $ git merge dummy-kao/master
+
 Updating ac341ae..689b015
+
 Fast-forward
+
  contact.html | 2 ++
+
  1 file changed, 2 insertions(+)
  
 
  
-> ï¿½Ä¤Tï¿½Bï¿½Gï¿½ï¿½ï¿½^ï¿½Û¤vï¿½ï¿½ï¿½Mï¿½ï¿½
-ï¿½oï¿½Ó¨Bï¿½Jï¿½nï¿½ï¿½ï¿½nï¿½ï¿½ï¿½Nï¿½Ý§Aï¿½Û¤vï¿½Mï¿½wï¿½Fï¿½Aï¿½ï¿½ï¿½ï¿½ï¿½bï¿½Aï¿½qï¿½ï¿½ï¿½Wï¿½wï¿½gï¿½Oï¿½Ì·sï¿½ï¿½ï¿½ï¿½ï¿½Fï¿½Aï¿½pï¿½Gï¿½Aï¿½Æ±ï¿½Aï¿½b GitHub ï¿½Wï¿½ï¿½ï¿½ï¿½ Fork ï¿½ï¿½ï¿½Mï¿½×¤]ï¿½ï¿½ï¿½Ì·sï¿½ï¿½ï¿½Aï¿½uï¿½nï¿½ï¿½ï¿½Wï¿½hï¿½Nï¿½ï¿½Fï¿½G
+> ²Ä¤T¨B¡G±À¦^¦Û¤vªº±M®×
+³o­Ó¨BÆJ­n¤£­n°µ´N¬Ý§A¦Û¤v¨M©w¤F¡A²¦³º¦b§A¹q¸£¤W¤w¸g¬O³Ì·sª©¥»¤F¡A¦pªG§A§Æ±æ§A¦b GitHub ¤W¨º­Ó Fork ªº±M®×¤]¸ò¨ì³Ì·sª©¡A¥u­n±À¤W¥h´N¦æ¤F¡G
 
 
 $ git push origin master
+
 Counting objects: 4, done.
+
 Delta compression using up to 4 threads.
+
 Compressing objects: 100% (4/4), done.
+
 Writing objects: 100% (4/4), 596 bytes | 596.00 KiB/s, done.
+
 Total 4 (delta 1), reused 0 (delta 0)
+
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+
 To https://github.com/eddiekao/dummy-git.git
+
    ac341ae..689b015  master -> master
 
 
-> Markdown ï¿½Ï¶ï¿½ï¿½Þ¨ï¿½
-> > Markdown ï¿½Ï¶ï¿½ï¿½Þ¨ï¿½
-
-Markdown Setextï¿½Î¦ï¿½
-===================
-
-Markdown Setextï¿½Î¦ï¿½
--------------------
-
-# 1st Atxï¿½Î¦ï¿½ !! #
-
-## 2nd Atxï¿½Î¦ï¿½ !! ##
-
-### 3rd Atxï¿½Î¦ï¿½ !! ###
-
-#### 4th Atxï¿½Î¦ï¿½ !! ####
-
-##### 5th Atxï¿½Î¦ï¿½ !! #####
-
-###### 6th Atxï¿½Î¦ï¿½ !! ######
-
-
-<table>
-    <tr>
-        <td>Foo</td>
-    </tr>
-</table>
-
-ï¿½ï¿½ï¿½ï¿½
-====
-  |ï¿½mï¿½W|ï¿½Ê§O|ï¿½~ï¿½ï¿½|ï¿½ï¿½ï¿½y|
-  |---|----|----|---|
-  |ï¿½fï¿½l|ï¿½k|94|ï¿½é¥»|
-  |ï¿½~ï¿½l|ï¿½k|87|ï¿½ï¿½ï¿½ï¿½|
-
-ï¿½jï¿½ï¿½
-====
-
-*single asterisks*
-
-_single underscores_
-
-**double asterisks**
-
-__double underscores__
-
-ï¿½Yï¿½ï¿½
-====
-
->ï¿½ï¿½rï¿½ï¿½ï¿½e
->>ï¿½Yï¿½ï¿½
->>>ï¿½Yï¿½ï¿½
->>>>(ï¿½Hï¿½ï¿½ï¿½ï¿½ï¿½ï¿½)
-
-
-> ## This is a header.
-> 
-> 1.   This is the first list item.
-> 2.   This is the second list item.
-
-ï¿½ï¿½ï¿½jï¿½u
-======
-
---------------------------------
-
-Markdownï¿½ä´©ï¿½ï¿½ï¿½Ç²Mï¿½ï¿½Mï¿½Lï¿½Ç²Mï¿½ï¿½
-==============================
-ï¿½Lï¿½Ç²Mï¿½ï¿½Ï¥Î¬Pï¿½ï¿½ï¿½Bï¿½[ï¿½ï¿½ï¿½Î¬Oï¿½î¸¹ï¿½@ï¿½ï¿½ï¿½Mï¿½ï¿½Ð°Oï¿½G
-
-*   Red
-*   Green
-*   Blue
-
-
-**ï¿½Ý¿ï¿½Æ¶ï¿½**
-============
-
-- [x] Red 
-- [x] Green
-- [x] Blue
-
-
-  |Project Name|Bring up|GPIO|HSIO|Super IO|GOP(VBT)|
-  |----|----|----|----|----|----|
-  |SOM 2569|Done| | | | |
-  |SOM 3569|Done| | | | |
-  |SOM 6869|Done| | | | |
-  |SOM 7569|Done| | | | |
-
-Test
-============
-Tony3 Commit...
