@@ -1,7 +1,10 @@
 
+<!--
 ![Alt text](https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg "Advantech-SBL")
+-->
+<div align=center><img src="https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg" width="400"></div>
 
-SBL 開發環境建置
+__SBL__ 開發環境建置
 ================
 
 >VS Code 建議使用
