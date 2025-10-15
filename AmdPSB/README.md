@@ -22,6 +22,9 @@ Agenda
 * Confirm authenticity of certificate signing request to AMD POC
 * Receive certificate file from AMD POC
 
+# PSB Boot Flow
+![AmdpsbS5](./Pic/AmdpsbS5.png)
+
 # BIOS Check List
 * Makesure gEfiAmdAgesaModulePkgTokenSpaceGuid.PcdAmdPspAutoPsb is true
 * Makesure Image entry 0x05 in BIOS DIR L1 and L2
