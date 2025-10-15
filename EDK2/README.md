@@ -17,15 +17,16 @@ Agenda
 
 # Change Code Page to UTF-8
 
-  chcp 65001
+*  chcp 65001
 
 # Get EDK2 Source code
 * git clone https://github.com/tianocore/edk2.git
 
+* https://github.com/tianocore/edk2.git
+* faeee00490bc23b147f1d4b6e70b190d3eb80583 MdeModulePkg/FvSimpleFileSystemDxe: Remove Iso639Language
+
 * https://github.com/tianocore/edk2-libc.git
-* commit 27545cb7cf32077331bcac0e008115467f5e4c53
-* https://github.com/tianocore/edk2-libc.git
-* commit 27545cb7cf32077331bcac0e008115467f5e4c53
+* 27545cb7cf32077331bcac0e008115467f5e4c53 edk2-libc: Add manual dispatch for the Python UEFI build actions
 
 # Update EDK2 submodule
 * cd edk2
@@ -48,6 +49,8 @@ Agenda
 * build -a X64 -b DEBUG -t VS2022 -p ShellPkg\ShellPkg.dsc
 
 # Build Platform File (AppPkg\AppPkg.dsc)
+* https://github.com/tianocore/edk2-libc.git
+* commit 27545cb7cf32077331bcac0e008115467f5e4c53
 * build -a X64 -b RELEASE -t VS2019 -p AppPkg\AppPkg.dsc
 * build -a X64 -b DEBUG -t VS2022 -D BUILD_PYTHON368 -p AppPkg\AppPkg.dsc
 * build -a X64 -b RELEASE -t VS2022 -D BUILD_PYTHON368 -p AppPkg\AppPkg.dsc

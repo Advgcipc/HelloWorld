@@ -24,6 +24,9 @@ Agenda
 
 ![]("https://github.com/Advgcipc/HelloWorld/blob/master/AmdPSB/AmdpsbS5.png")
 
+
+![圖片介紹](./Pic/AmdpsbS5.png)
+
 # BIOS Check List
 * Makesure gEfiAmdAgesaModulePkgTokenSpaceGuid.PcdAmdPspAutoPsb is true
 * Makesure Image entry 0x05 in BIOS DIR L1 and L2
