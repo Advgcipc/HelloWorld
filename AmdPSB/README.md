@@ -22,10 +22,7 @@ Agenda
 * Confirm authenticity of certificate signing request to AMD POC
 * Receive certificate file from AMD POC
 
-![]("https://github.com/Advgcipc/HelloWorld/blob/master/AmdPSB/AmdpsbS5.png")
-
-
-![圖片介紹](./Pic/AmdpsbS5.png)
+![AmdpsbS5](./Pic/AmdpsbS5.png)
 
 # BIOS Check List
 * Makesure gEfiAmdAgesaModulePkgTokenSpaceGuid.PcdAmdPspAutoPsb is true
