@@ -84,7 +84,7 @@ Git 基本操作
 初始本地數據庫時，預設的分支名稱就是 master
 -------------------------------------------
 
-![capture_stepup]./Docs/Pics/capture_stepup.png)
+![capture_stepup](./Docs/Pics/capture_stepup.png)
 
 <https://w3c.hexschool.com/git/a8ee6eee>
 
