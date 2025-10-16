@@ -16,13 +16,16 @@ Agenda
 
 # Change Code Page to UTF-8
 *       chcp 65001
+# Set Python default redirect out to UTF-8
+*       set PYTHONIOENCODING=utf8
+* Fix Python error: ’cp950′ codec can’t encode character ‘\u8bfa’ in position 161: illegal multibyte sequence
 
 # Get EDK2 Source code
 * Base on commit:
 *       2522020ee12b42fabd8b1353b4f89854455d6325
 *       git clone https://github.com/tianocore/edk2.git
 
-# Update EDK2 submodule
+## Update EDK2 submodule
 *       cd edk2
 *       git submodule update --init
 *       git submodule update --recursive
