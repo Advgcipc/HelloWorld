@@ -76,6 +76,9 @@ Agenda
 *       build -a X64 -b RELEASE -t VS2022 -D BUILD_PYTHON368 -p AppPkg\AppPkg.dsc
 *       build -a X64 -b DEBUG -t VS2022 -D BUILD_PYTHON368 -p AppPkg\AppPkg.dsc
 
+#### Reference Link
+        https://uefi.org/sites/default/files/resources/Using%20Python%203%20in%20the%20UEFI%20Shell%20for%20Platform%20Security%20Analysis_Final%208.15.2022.pdf
+
 ## Build Error
 *   MdePkg/Include/IndustryStandard/SmBios.h            --> CP950 error
 *         modified:/// Unless otherwise specified, when referring to another structure's handle, the value
