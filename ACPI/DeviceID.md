@@ -21,5 +21,5 @@ Agenda
 
 
 # Linux Kernel Doc
-![AmdpsbS5](./../Pics/DeviceTreenamelinkDeviceid.png)
+![LinuxKernelDoc](./DeviceID/Pics/DeviceTreenamelinkDeviceid.png)
 * https://docs.kernel.org/firmware-guide/acpi/enumeration.html

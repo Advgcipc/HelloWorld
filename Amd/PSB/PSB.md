@@ -1,4 +1,4 @@
-<div align=center><img src="https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg" width="400"></div>
+<div align=><img src="https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg" width="200"></div>
 
 
 AMD **P**latform **S**ecure **B**oot
@@ -23,7 +23,7 @@ Agenda
 * Receive certificate file from AMD POC
 
 # PSB Boot Flow
-![AmdpsbS5](./Pic/AmdpsbS5.png)
+![AmdpsbS5](./Pics/AmdpsbS5.png)
 
 # BIOS Check List
 * Makesure gEfiAmdAgesaModulePkgTokenSpaceGuid.PcdAmdPspAutoPsb is true
