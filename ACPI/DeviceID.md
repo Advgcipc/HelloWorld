@@ -3,9 +3,11 @@
 # ACPI Declaim Device Node
 
 ## MITT/WITT support UART、I2C、SPI and GPIO
-    * https://learn.microsoft.com/zh-tw/windows-hardware/drivers/spb/download-the-mitt-software-package
-    
-    * 
+  https://learn.microsoft.com/zh-tw/windows-hardware/drivers/spb/download-the-mitt-software-package
+
+
+  * Download MITT software kit
+     
 
 ## ACPI Method _HID _CID _DSD
 *   _HID    Object that evaluates to a device’s Plug and Play hardware ID.
@@ -32,7 +34,10 @@
 
 ## Sample ASL code
 
-* Report I2C Postcode device Addr:0x38 in I2C1
+### Report I2C Postcode device Addr:0x38 in I2C1
+![LinuxKernelmax6959driver](./DeviceID/Pics/max6959driver.png)
+
+
 * https://elixir.bootlin.com/linux/v6.17.1/source/drivers/auxdisplay/max6959.c
 #  
     Scope(\_SB.PC00.I2C1) {
@@ -55,6 +60,8 @@
     }
 
 * Report Hardware monitor I2C device Addr:0x4C in I2CD
+![LinuxKernelmax6959driver](./DeviceID/Pics/lm95245driver.png)
+
 #
     Scope(\_SB.I2CD) {
         Device (TXN1) {
@@ -74,7 +81,7 @@
         }
     }
 
-* Report Hardware monitor I2C device Addr:0x51 in I2CD
+### Report Hardware monitor I2C device Addr:0x51 in I2CD
 #
 
     Scope(\_SB.I2CD) {
@@ -96,7 +103,9 @@
     }
 
 
-* Report SPI rom in SPI0
+### Report SPI flash rom in SPI0
+![LinuxKernelmax6959driver](./DeviceID/Pics/spinordriver.png)
+https://elixir.bootlin.com/linux/v6.17.1/source/drivers/mtd/spi-nor/core.c
 #  
     Scope(\_SB.PC00.SPI0) {
         Device (SEP0) {
@@ -117,7 +126,9 @@
         }
     }
 
-* Report I2C EEPROM device Addr:0x57 in I2CD
+### Report I2C EEPROM device Addr:0x57 in I2CD
+![LinuxKernelmax6959driver](./DeviceID/Pics/at24c.png)
+https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
 #
     Scope(\_SB.I2CD) {
         Device (EEP0) {
@@ -140,7 +151,7 @@
         }
     }
 
-* Report I2C EEPROM device device Addr:0x50 in I2CD
+### Report I2C EEPROM device device Addr:0x50 in I2CD
 #
     Scope(\_SB.I2CD) {
         Device (EEP2) {
@@ -165,7 +176,7 @@
     }
 
 
-* Report I2C EEPROM device Addr:0x53 in I2CD
+### Report I2C EEPROM device Addr:0x53 in I2CD
 #
     Scope(\_SB.I2CD) {
         Device (EEP3) {
