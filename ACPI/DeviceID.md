@@ -5,21 +5,16 @@ ACPI Device Declaim
 
 Agenda
 ------
-*   Method _HID _CID _DSD
-*   Change Code Page to UTF-8
-*   Get EDK2 Source code
-*   Update EDK2 submodule
-*   Setup EDK2 envir
-*   Build Basetool
-*   Li
+#   ACPI Method _HID _CID _DSD 
+#   Linux Kernel Doc
 
 
-# Method _HID _CID _DSD
+## ACPI Method _HID _CID _DSD
 *       _HID 
 *       _CID 
 *       _DSD 
 
 
-# Linux Kernel Doc
+## Linux Kernel Doc
 ![LinuxKernelDoc](./DeviceID/Pics/DeviceTreenamelinkDeviceid.png)
 * https://docs.kernel.org/firmware-guide/acpi/enumeration.html
