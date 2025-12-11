@@ -20,7 +20,7 @@
     * "daffd814-6eba-4d8c-8a91-bc9bbf4aa301" UUID match
     * https://uefi.org/sites/default/files/resources/_DSD-device-properties-UUID.pdf
 
-## Linux Kernel Doc
+## Linux Kernel Document
 ![LinuxKernelDoc](./DeviceID/Pics/DeviceTreenamelinkDeviceid.png)
 * https://docs.kernel.org/firmware-guide/acpi/enumeration.html
 
