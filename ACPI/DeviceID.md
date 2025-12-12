@@ -127,7 +127,7 @@ https://elixir.bootlin.com/linux/v6.17.1/source/drivers/mtd/spi-nor/core.c
     }
 
 ### Report I2C EEPROM device Addr:0x57 in I2CD
-![LinuxKernelmax6959driver](./DeviceID/Pics/at24c.png)
+![LinuxKernelmax6959driver](./DeviceID/Pics/at24C.png)
 https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
 #
     Scope(\_SB.I2CD) {
