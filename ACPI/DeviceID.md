@@ -199,3 +199,14 @@ https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
             Method(_STA, 0, NotSerialized) {Return(0x0F)}
         }
     }
+
+
+## Intel I2CI2cPostCode
+## This PCD specifies Serial I2C settings for PostCode
+## Default to support MAX6950 device
+gSiPkgTokenSpaceGuid.PcdI2cPostCodePortNumber|0|UINT8|0x20000011
+gSiPkgTokenSpaceGuid.PcdI2cPostCodePortNumber|1|UINT8|0x20000011
+gSiPkgTokenSpaceGuid.PcdI2cPostCodeAddress|0x38|UINT8|0x20000012
+gSiPkgTokenSpaceGuid.PcdI2cPostCodeCommand|0x20|UINT8|0x20000013
+gSiPkgTokenSpaceGuid.PcdI2cPostCodeByteCount|5|UINT8|0x20000014
+
