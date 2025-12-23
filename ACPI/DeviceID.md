@@ -232,11 +232,8 @@ https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
       })
 
       Method(_STA, 0, NotSerialized) { 
-        If (LNotEqual(OSYS, 2015)) { 
-
           Return(0x0F)
-        }
-        Return(0x00)
+      }
 
     } //Device (SEP0)
 
