@@ -206,4 +206,38 @@ https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
         }
     }
 
+### Report Bosch bme280 in GSPI2 work
+<https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf>
+
+<https://www.taiwaniot.com.tw/product/gy-bme280-3-3-%E9%AB%98%E7%B2%BE%E5%BA%A6-%E5%A4%A7%E6%B0%A3%E5%A3%93%E5%BC%B7%E6%84%9F%E6%B8%AC%E5%99%A8%E6%A8%A1%E7%B5%84-%E9%AB%98%E5%BA%A6%E8%A8%88/?srsltid=AfmBOop-e9IW7Avu14W-4I9zvT5I7E35rGavWvKLUpWWrc741rvmWvvd>
+#
+    Device (SEP8) {
+      Name (_HID, "PPP0001")
+
+      Method(_CRS, 0x0, NotSerialized)
+      {
+        Name (RBUF, ResourceTemplate ()
+        {
+            SpiSerialBus (0x0000, PolarityLow, FourWireMode, 0x08,ControllerInitiated, 0x000F4240, ClockPolarityLow,ClockPhaseFirst, "\\_SB.PC00.SPI2", 0x00, ResourceConsumer, , )
+        })
+
+        Return(RBUF)
+      }
+
+      Name (_DSD, Package () {
+        ToUUID  ("daffd814-6eba-4d8c-8a91-bc9bbf4aa301"),
+        Package () {
+          Package () {"compatible", "bosch,bme280"}
+        }
+      })
+
+      Method(_STA, 0, NotSerialized) { 
+        If (LNotEqual(OSYS, 2015)) { 
+
+          Return(0x0F)
+        }
+        Return(0x00)
+
+    } //Device (SEP0)
+
 
