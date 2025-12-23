@@ -20,9 +20,14 @@
     * "daffd814-6eba-4d8c-8a91-bc9bbf4aa301" UUID match
     * https://uefi.org/sites/default/files/resources/_DSD-device-properties-UUID.pdf
 
+*   _ADR    An _ADR object must be used when specifying the address of any device on a bus that has a standard enumeration algorithm .
+![ACPI_ADR](image.png)
+
 ## Linux Kernel Document
 ![LinuxKernelDoc](./DeviceID/Pics/DeviceTreenamelinkDeviceid.png)
 * https://docs.kernel.org/firmware-guide/acpi/enumeration.html
+
+![LinuxKernelDoc](./DeviceID/Pics/DeviceTreenamelinkDeviceid1.png)
 
 ## Linux Driver behavior
 * _HID or _CID of ACPI table check driver ".acpi_match_table" if mathed the driver loaded.
@@ -42,7 +47,8 @@
 #  
     Scope(\_SB.PC00.I2C1) {
         Device (ADI2) {
-            Name (_CID, "PRP0001")
+            <font color=red>Name (_HID, "ADI0001")</font>
+             <font color="#f00">Name (_CID, "PRP0001")</font>
             Name (_DDN, "Analog Device Inc, MAX6958")
             Name (_CRS, ResourceTemplate () {
                 I2CSerialBus(0x0038, ControllerInitiated, 400000, AddressingMode7Bit, "\\_SB.PC00.I2C1", 0x00,  ResourceConsumer,,)
@@ -200,13 +206,4 @@ https://elixir.bootlin.com/linux/v6.17.1/source/drivers/misc/eeprom/at24.c
         }
     }
 
-
-## Intel I2CI2cPostCode
-## This PCD specifies Serial I2C settings for PostCode
-## Default to support MAX6950 device
-gSiPkgTokenSpaceGuid.PcdI2cPostCodePortNumber|0|UINT8|0x20000011
-gSiPkgTokenSpaceGuid.PcdI2cPostCodePortNumber|1|UINT8|0x20000011
-gSiPkgTokenSpaceGuid.PcdI2cPostCodeAddress|0x38|UINT8|0x20000012
-gSiPkgTokenSpaceGuid.PcdI2cPostCodeCommand|0x20|UINT8|0x20000013
-gSiPkgTokenSpaceGuid.PcdI2cPostCodeByteCount|5|UINT8|0x20000014
 
