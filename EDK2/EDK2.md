@@ -22,8 +22,8 @@ Agenda
 
 # Get EDK2 Source code
 * Base on commit:
-*       2522020ee12b42fabd8b1353b4f89854455d6325
-*       git clone https://github.com/tianocore/edk2.git
+* 2522020ee12b42fabd8b1353b4f89854455d6325
+    git clone https://github.com/tianocore/edk2.git
 
 ## Update EDK2 submodule
 *   cd edk2
@@ -47,6 +47,10 @@ Agenda
 
 ## Build UEFI UniversalPayload
 *   python UefiPayloadPkg/UniversalPayloadBuild.py -t VS2022
+  - UniversalPayload.elf
+    - Install elf dump tools 
+    - https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-win64.exe
+  
 
 ## Build Platform File (ShellPkg\ShellPkg.dsc)
 *   build -a X64 -b DEBUG -t VS2022 -p ShellPkg\ShellPkg.dsc
