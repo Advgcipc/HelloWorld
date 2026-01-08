@@ -48,11 +48,17 @@ Agenda
 *   build -a IA32 -a X64 -b DEBUG -t VS2022 -D BOOTLOADER=SBL -p UefiPayloadPkg\UefiPayloadPkg.dsc
 
 ## Build UEFI UniversalPayload
-*   python UefiPayloadPkg/UniversalPayloadBuild.py -t VS2022
   - UniversalPayload.elf
     - Install elf dump tools 
     - https://github.com/llvm/llvm-project/releases/download/llvmorg-21.1.8/LLVM-21.1.8-win64.exe
-  
+
+# Default debug mode
+    python UefiPayloadPkg/UniversalPayloadBuild.py -t VS2022
+
+# Release mode
+    python UefiPayloadPkg/UniversalPayloadBuild.py -t VS2022 -b RELEASE
+
+
 
 ## Build Platform File (ShellPkg\ShellPkg.dsc)
 *   build -a X64 -b DEBUG -t VS2022 -p ShellPkg\ShellPkg.dsc
