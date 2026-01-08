@@ -9,6 +9,22 @@ SBL Boot Flow
 # 
 ![alt text](image.png)  
 
+## Stage 1A
+
+### After coming out of reset, Stage 1A sets up the initial exectution environment.
+
+## Stage 1B
+
+### The primary purpose of Stage1B is to bring up the system memory.
+
+## Stage 2
+
+### Stage 2 is the ¡§post-memory¡¨ stage and is responsible for completing system initialization after main memory is available.
+### Initialize the chipset and I/O controllers.
+
+## Payload
+
+### run internal Payload (Os Loader)
 
 SBL Payload type
 ================
