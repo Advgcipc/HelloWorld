@@ -15,14 +15,14 @@
 * BIOS include public keys PK, KEK, DB, DBX using "Certificates eModule" 
 * BIOS default set "DEFAULT_PROVISION_SECURE_VARS" to 1
 * BIOS enroll keys at DXE phase via "SecureBootDXE" driver during SetupMode == 1
-* The "SecureBootDXE" driver return EFI_UNLOAD_IMAGE caused the image will unload after dispatch
+* The "SecureBootDXE" driver return EFI_UNLOAD_IMAGE caused the image will unload after dispatchF
 
 ### Secure Boot Varable
 
 * AMI defined variable ==> AMI_SECURE_BOOT_SETUP_VAR  L"SecureBootSetup"
 * The "SecureBootSetup" variable only could be modified in Admin mode of BIOS Setup.
 * The "SecureBootSetup" variable default would be reserved during flashing BIOS.
-
+ ```
 typedef struct{
     UINT8 SecureBootSupport;   ///< Setup control
     UINT8 SecureBootMode;      ///< Setup control
@@ -32,7 +32,7 @@ typedef struct{
     UINT8 Load_from_REMOVABLE_MEDIA; ///< Setup control
     UINT8 Load_from_FIXED_MEDIA; ///< Setup control
 } SECURE_BOOT_SETUP_VAR;
-
+ ```
 
 ### Secure Boot Setup and Tokens
 * SecureBootSupport of SECURE_BOOT_SETUP_VAR is control by Secure Boot item
@@ -86,7 +86,7 @@ typedef struct{
 
 ### Secure Boot Key Data Struture
 #### EFI_VARIABLE_AUTHENTICATION = AMI_EFI_VARIABLE_AUTHENTICATION_2 + EFI_SIGNATURE_LIST_1 + Public Key
-
+ ```
 typedef struct {
   ///
   /// Type of the signature. GUID signature types are defined in below.
@@ -130,5 +130,5 @@ typedef struct {
     EFI_TIME                            TimeStamp;
     WIN_CERTIFICATE_UEFI_GUID_1         AuthInfo;
 } AMI_EFI_VARIABLE_AUTHENTICATION_2;
-
+ ```
 
