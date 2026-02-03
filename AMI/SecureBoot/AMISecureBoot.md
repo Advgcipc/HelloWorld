@@ -1,11 +1,8 @@
 <div align=center><img src="https://www.advantech.tw/css/css-img/advantech-logo-notagl.svg" width="400"></div>
 
-AMI Secure Boot
-===============
+# AMI Secure Boot
 
-Agenda
-------
-## AMI Secure Boot
+## Agenda
 
 * Customer Default Key Provision
 * Secure Boot Varable
@@ -18,6 +15,7 @@ Agenda
 * BIOS include public keys PK, KEK, DB, DBX using "Certificates eModule" 
 * BIOS default set "DEFAULT_PROVISION_SECURE_VARS" to 1
 * BIOS enroll keys at DXE phase via "SecureBootDXE" driver during SetupMode == 1
+* The "SecureBootDXE" driver return EFI_UNLOAD_IMAGE caused the image will unload after dispatch
 
 ### Secure Boot Varable
 
@@ -85,3 +83,52 @@ typedef struct{
 * Update SDL file
 ![Cert11](image-11.png)
 ![Cert10](image-10.png)
+
+### Secure Boot Key Data Struture
+#### EFI_VARIABLE_AUTHENTICATION = AMI_EFI_VARIABLE_AUTHENTICATION_2 + EFI_SIGNATURE_LIST_1 + Public Key
+
+typedef struct {
+  ///
+  /// Type of the signature. GUID signature types are defined in below.
+  ///
+  EFI_GUID            SignatureType;
+  ///
+  /// Total size of the signature list, including this header.
+  ///
+  UINT32              SignatureListSize;
+  ///
+  /// Size of the signature header which precedes the array of signatures.
+  ///
+  UINT32              SignatureHeaderSize;
+  ///
+  /// Size of each signature.
+  ///
+  UINT32              SignatureSize;
+  ///
+  /// Header before the array of signatures. The format of this header is specified
+  /// by the SignatureType.
+  /// UINT8           SignatureHeader[SignatureHeaderSize];
+  ///
+  /// An array of signatures. Each signature is SignatureSize bytes in length.
+  /// EFI_SIGNATURE_DATA Signatures[][SignatureSize];
+  ///
+} EFI_SIGNATURE_LIST;
+
+typedef struct {
+    EFI_SIGNATURE_LIST   SigList;
+    EFI_GUID             SigOwner;
+} EFI_SIGNATURE_LIST_1;
+
+typedef struct {
+  WIN_CERTIFICATE   Hdr;
+  EFI_GUID          CertType;
+//  UINT8            CertData[1];
+//    EFI_CERT_BLOCK_RSA_2048_SHA256  CertData;
+} WIN_CERTIFICATE_UEFI_GUID_1;
+
+typedef struct {
+    EFI_TIME                            TimeStamp;
+    WIN_CERTIFICATE_UEFI_GUID_1         AuthInfo;
+} AMI_EFI_VARIABLE_AUTHENTICATION_2;
+
+
