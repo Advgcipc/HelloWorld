@@ -31,15 +31,18 @@ SBL Setup and Build
 ## Install Python
 
 * \\\biosserver.advantech.corp\Utility\SBL\ASL\ to C:\Python36
-
+* https://www.python.org/ftp/python/3.14.2/python-3.14.2-amd64.exe
+  
 ## Install NASM 2.12.02
 
 * \\\biosserver.advantech.corp\Utility\SBL\Nasm\ to C:\Nasm
-
+* https://www.nasm.us/pub/nasm/releasebuilds/3.01/nasm-3.01.zip
+  
 ## Install IASL 20190509
 
 * \\\biosserver.advantech.corp\Utility\SBL\ASL\ to C:\ASL
-
+* https://www.intel.com/content/www/us/en/download/774881/acpi-component-architecture-downloads-windows-binary-tools.html
+* 
 ## Install OpenSSL
 
 * \\\biosserver.advantech.corp\Utility\SBL\Openssl\ to C:\openssl
